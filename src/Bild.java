@@ -5,6 +5,7 @@ public class Bild {
 	private static final int farbtiefe = 3;
 	private char[] pixels;
 	
+	// testline
 	public Bild() {	
 		pixels = new char[breite*hoehe*farbtiefe];
 		for (int i = 0; i < pixels.length; i++) {
