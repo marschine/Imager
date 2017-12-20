@@ -60,12 +60,11 @@ public class Bild {
 		this.pixels[x+(y*breite)+(farbtiefe*0)] = r;
 		this.pixels[x+(y*breite)+(farbtiefe*1)] = g;
 		this.pixels[x+(y*breite)+(farbtiefe*2)] = g;
-		int[] array = new int(1,2);
+//		int[] array = new int(1,2);
 	}
 	
 	public char getPixel(int x, int y, int rgb) {
-		return pixels[x]
-		return '4';
+		return pixels[x];
 	}
 
 	public static void main(String[] args) {
